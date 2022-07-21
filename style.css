@@ -1,0 +1,34 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+ nav{
+
+     background: #00050A; 
+
+ }
+ nav .show,
+ nav .hide{
+
+    text-align: center;
+    padding: 10px;
+    color: white;
+ }
+
+ nav ul{
+
+    list-style: none;
+    
+ }
+ nav ul li{
+    display: inline-block;
+ }
+
+ nav ul li a{
+
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+ }
