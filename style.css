@@ -6,6 +6,7 @@ body{
  nav{
 
      background: #051729; 
+     padding: 25px;
      
 
  }
@@ -54,4 +55,20 @@ nav ul li a{
    display: inline-block;
    margin: 10px 0;
 
+ }
+ #slide{
+
+    font-size: 50px;
+   border: rgba(red, green, blue, alpha);
+   position: absolute;
+   bottom: 0;
+   right: 0;
+ }
+
+ .fixed{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
  }

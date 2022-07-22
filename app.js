@@ -38,6 +38,18 @@ jQuery(document).ready(function(){
 
         });
 
+     jQuery(window).scroll(function(){
+
+         var p= jQuery(window).scrollTop();
+        if(p >220){
+
+                jQuery("nav").addClass("fixed");
+        }
+        else{
+
+                jQuery("nav").removeClass("fixed");
+        }
+     });
 
 
 
